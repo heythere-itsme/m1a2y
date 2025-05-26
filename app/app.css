@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Agdasima:wght@400;700&display=swap');
+@import "tailwindcss";
+@import "tw-animate-css";
+
+
+@theme {
+  --font-aboreto: "Aboreto", sans-serif;
+  --font-agdasima: "Agdasima", sans-serif;
+  --color-primary-500: #E2E2E2;
+  --color-primary-400: #EEEEEE;
+  --color-primary-100: #FFFFFF;
+  --shadow-100: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  --shadow-200: 0px 0px 24.8px 0px rgba(0, 0, 0, 0.6);
+  --shadow-300: 0px -4px 12.7px 4px rgba(0, 0, 0, 0.25);
+  --shadow-400: 0px 4px 6px 0px rgba(0, 0, 0, 0.33);
+  --text-prim: 36px;
+  --text-sec: 32px;
+  --text-small: 20px;
+  --text-vsmall: 16px;
+}
+
+.car-cards {
+  @apply h-[300px] w-[290px] border-[2px] border-black shadow-100 rounded-[10px] relative;
+  img{
+    @apply rounded-t-[8px] shadow-400 w-full h-full object-cover;
+  }
+  h3 {
+    @apply font-agdasima text-sec w-[100px] break-words;
+  }
+  h2 {
+    @apply font-agdasima text-small;
+  }
+}
+
+.show-image {
+  @apply h-[360px] w-[570px] border-[1px] border-black shadow-200
+}
+
+.detail-container {
+  @apply w-[1350px] shadow-300 bg-primary-400;
+  h2 {
+    @apply font-agdasima text-prim;
+  }
+  h3 {
+    @apply font-agdasima text-sec;
+  }
+  h4 {
+    @apply font-agdasima text-small;
+  }
+  h5 {
+    @apply font-agdasima text-vsmall;
+  }
+}
+
+.detail-image {
+  @apply h-[215px] w-[274px] border-black border-[1px] 
+}
+
+.search-bar {
+  @apply h-[64px] w-[1000px] border-black border-[1px] shadow-100 bg-primary-100 rounded-[10px] flex mx-auto;
+  div {
+    @apply h-[64px] w-[235px] flex items-center justify-center;
+  }
+  h2 {
+    @apply text-small font-agdasima text-black/70;
+  }
+}
+
+.log-in-container {
+  @apply h-[735px] border-black border-[1px] rounded-[10px] shadow-100;
+}
+
+.card-container {
+  @apply pt-14 mx-auto w-[992px] grid grid-cols-3 gap-x-[60px] gap-y-[50px];
+}
+
+.cardetContainer {
+  @apply h-fit shadow-300 bg-primary-500 rounded-[10px] w-[70vw] mx-auto;
+  h3{
+    @apply text-prim font-agdasima;
+  }
+  h2 {
+    @apply text-sec font-agdasima;
+  }
+  h4 {
+    @apply text-vsmall font-agdasima;
+  }
+  h5 {
+    @apply text-small font-agdasima;
+  }
+
+}
+
+.form-page-contain{
+  @apply h-[70vh] w-[30vw] bg-primary-400 rounded-[10px] shadow-100;
+  h3 {
+    @apply font-agdasima text-prim mx-auto w-fit py-3;
+  }
+  h5 {
+    @apply text-small font-agdasima opacity-70;
+  }
+  form {
+    @apply w-[80%] mx-auto pt-5 flex flex-col gap-4;
+  }
+  Input {
+      @apply font-agdasima text-small;
+    }
+  Button {
+    @apply bg-[#e8e8e8] w-fit shadow-100;
+  }
+}

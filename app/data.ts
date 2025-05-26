@@ -1,0 +1,195 @@
+export const users = [
+  {
+    name: "Alice Johnson",
+    email: "alice@example.com",
+    loggedIn: true,
+    joinedAt: 1672531200000,
+    phoneNo: 9876543210,
+    userType: "admin",
+  },
+  {
+    name: "Bob Smith",
+    email: "bob@example.com",
+    loggedIn: false,
+    joinedAt: 1675209600000,
+    phoneNo: 9876543211,
+    userType: "visitor",
+  },
+  {
+    name: "Charlie Evans",
+    email: "charlie@example.com",
+    loggedIn: true,
+    joinedAt: 1677628800000,
+    phoneNo: 9876543212,
+    userType: "adder",
+  },
+  {
+    name: "Diana Brooks",
+    email: "diana@example.com",
+    loggedIn: true,
+    joinedAt: 1680307200000,
+    phoneNo: 9876543213,
+    userType: "visitor",
+  },
+  {
+    name: "Ethan Clark",
+    email: "ethan@example.com",
+    loggedIn: false,
+    joinedAt: 1682899200000,
+    phoneNo: 9876543214,
+    userType: "admin",
+  },
+  {
+    name: "Fiona Lewis",
+    email: "fiona@example.com",
+    loggedIn: true,
+    joinedAt: 1685577600000,
+    phoneNo: 9876543215,
+    userType: "adder",
+  },
+  {
+    name: "George Hall",
+    email: "george@example.com",
+    loggedIn: false,
+    joinedAt: 1688169600000,
+    phoneNo: 9876543216,
+    userType: "visitor",
+  },
+  {
+    name: "Hannah Moore",
+    email: "hannah@example.com",
+    loggedIn: true,
+    joinedAt: 1690848000000,
+    phoneNo: 9876543217,
+    userType: "admin",
+  },
+  {
+    name: "Isaac King",
+    email: "isaac@example.com",
+    loggedIn: false,
+    joinedAt: 1693440000000,
+    phoneNo: 9876543218,
+    userType: "adder",
+  },
+  {
+    name: "Julia Adams",
+    email: "julia@example.com",
+    loggedIn: true,
+    joinedAt: 1696118400000,
+    phoneNo: 9876543219,
+    userType: "visitor",
+  },
+  {
+    name: "Kevin Young",
+    email: "kevin@example.com",
+    loggedIn: true,
+    joinedAt: 1698710400000,
+    phoneNo: 9876543220,
+    userType: "admin",
+  },
+  {
+    name: "Laura Scott",
+    email: "laura@example.com",
+    loggedIn: false,
+    joinedAt: 1701388800000,
+    phoneNo: 9876543221,
+    userType: "adder",
+  },
+  {
+    name: "Martin Turner",
+    email: "martin@example.com",
+    loggedIn: false,
+    joinedAt: 1703977200000,
+    phoneNo: 9876543222,
+    userType: "visitor",
+  },
+  {
+    name: "Nina Baker",
+    email: "nina@example.com",
+    loggedIn: true,
+    joinedAt: 1706655600000,
+    phoneNo: 9876543223,
+    userType: "admin",
+  },
+  {
+    name: "Oscar Reed",
+    email: "oscar@example.com",
+    loggedIn: true,
+    joinedAt: 1709247600000,
+    phoneNo: 9876543224,
+    userType: "adder",
+  },
+];
+
+export const carData = {
+  company: 'McLaren',
+  model: '750S',
+  variant: 'Coupe',
+  toggle3d: false,
+  pics: [
+  '/WD_Project/McL750S_Track_Rear3_4_Final_crop-16x9.webp',
+  '/WD_Project/McLaren_750S_001-scaled-e1682609642863.jpg',
+  '/WD_Project/New-2024-McLaren-750S-Spider-Performance.jpg',
+  '/WD_Project/1-2025-tesla-cybertruck-front-view.webp',
+  'WD_Project/GTC Azure Media 1.1.jpg'
+],
+  abt:
+    'The McLaren 750S, launched in April 2023, is an evolution of the 720S, offering more power, less weight, and sharper dynamics. It retains the 4.0L twin-turbo V8, now producing 740 hp and 800 Nm, with enhanced responsiveness and performance. Built on the carbon-fiber Monocoque II chassis, it adopts features from the 765LT, including lighter components and improved aerodynamics. Available in coupe and spider variants, the 750S blends track-focused engineering with daily usability. As McLaren’s final purely V8-powered supercar before hybridization, it marks the end of an era.',
+  engine: {
+    "name": "M840T",
+    "Engine Type": "Twin-turbocharged V8",
+    "Fuel": "Petrol",
+    "Displacement": "3,994 cc",
+    "Max Power": "750 HP",
+    "Max Torque": "800 RPM",
+    "Compression Ratio": "8.7:1",
+    "Redline": "8200 RPM",
+    "Cooling": "Water-cooled with separate intercoolers for turbos"
+  },
+  transmission: {
+    "name": "SSG",
+    "Type": "7-speed dual-clutch automatic",
+    "Clutch": "Dual-clutch wet-plate system",
+    "Drivetrain": "Rear-wheel drive",
+    "Shift Mechanism": "Electronically actuated with paddle shifters"
+  },
+  otherFeatures: {
+    "Suspension": "Independent adaptive double wishbone",
+    "Suspension System": "Proactive Chassis Control III",
+    "Brakes": "Carbon-ceramic discs",
+    "Calipers": "Aluminum, lightweight design",
+    "Tyres (Front/Rear)": "245/35 R19 | 305/30 R20"
+  },
+  safetyFeatures: {
+    "Airbags": "Dual-Front Airbags",
+    "Braking": "ABS, EBD, emergency brake assist",
+    "Traction Control": "Yes",
+    "Stability Control": "Dynamic electronic stability",
+    "Parking Assistance": "Rear camera, front/rear sensors",
+    "ADAS": "No"
+  },
+  dimensionsAndWeight: {
+    "Length × Width": "4,543 mm × 2,161 mm",
+    "Height": "1,199 mm",
+    "Ground Clearance": "~107 mm (adjustable)",
+    "Seating Capacity": "2",
+    "Curb Weight": "1,450 kg",
+    "Trunk Volume": "~150 liters"
+  },
+  interiorFeatures: {
+    "Display": "4,543 mm × 2,161 mm",
+    "Infotainment System": "1,199 mm",
+    "Seats": "~107 mm (adjustable)",
+    "Steering Wheel": "2",
+    "Sound System": "1,450 kg",
+    "Trunk Volume": "~150 liters"
+  },
+  exteriorFeatures: {
+    "Body Structure": "Carbon-fiber monocoque",
+    "Headlights": "Adaptive LED with integrated DRLs",
+    "Doors": "Dihedral",
+    "Roof Options": "Fixed *",
+    "Wheels": "Forged alloy",
+    "Exhaust": "Center-exit twin exhausts"
+  }
+};
